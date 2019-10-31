@@ -1,0 +1,3 @@
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/aeds1_tp2.dir
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/edit_cache.dir

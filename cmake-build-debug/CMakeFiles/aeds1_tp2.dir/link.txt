@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/aeds1_tp2.dir/main.c.o CMakeFiles/aeds1_tp2.dir/combinacao.c.o  -o aeds1_tp2 
