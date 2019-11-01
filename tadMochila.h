@@ -8,6 +8,6 @@ typedef struct{
 }Item;
 
 typedef struct{
-    Item item[200];
+    Item *item;
     int capacidade;
 }Mochila;
