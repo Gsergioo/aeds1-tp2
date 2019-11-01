@@ -20,7 +20,7 @@ int main() {
     int *ptxMaior = &maior;
 
     Mochila mochila;
-    mochila.capacidade = 50;
+    mochila.capacidade = 40;
 
 
     FILE *arq = NULL;
@@ -51,7 +51,7 @@ int main() {
             Item itens[maxTam];
             leArquivo(arq, itens, maxTam);
             for (int j = 0; j < maxTam; ++j) {
-                printf("Peso: %d  Valor: %d", itens[j].peso, itens[j].valor);
+                printf("(%d) Peso: %d  Valor: %d", j, itens[j].peso, itens[j].valor);
                 printf("\n");
             }
             printf("\n");

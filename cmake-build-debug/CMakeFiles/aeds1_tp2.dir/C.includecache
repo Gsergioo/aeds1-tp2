@@ -6,23 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c
+combinacao.h
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.h
+stdio.h
+-
+stdlib.h
+-
+
 /home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.h
 stdio.h
 -
 tadMochila.h
 /home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/tadMochila.h
-
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c
-stdio.h
--
-combinacao.h
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.h
-time.h
--
-string.h
--
-malloc.h
--
 
 /home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/tadMochila.h
 

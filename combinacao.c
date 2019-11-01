@@ -16,7 +16,7 @@ void combinationUtil(Item *item, Item *tupla,int data[], int valComb[], int star
             somaPeso += data[j];
             somaVal += valComb[j];
         }
-        if( somaPeso <= capacidade && somaVal > *maior){
+        if( somaPeso <= capacidade){
             if (somaVal > *maior){
                 *maior = somaVal;
                 *qtd = r;
@@ -25,7 +25,7 @@ void combinationUtil(Item *item, Item *tupla,int data[], int valComb[], int star
                     tupla[i].peso = data[i];
                 }
             }
-            if (somaVal == *maior && *qtd > r){
+            if (somaVal == *maior && *qtd < r){
                 *maior = somaVal;
                 *qtd = r;
                 for (int i = 0; i < r; i++){
