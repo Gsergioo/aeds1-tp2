@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/Mochila.h">
+			<Option target="aeds1_tp2"/>
+		</Unit>
 		<Unit filename="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c">
 			<Option target="aeds1_tp2"/>
 		</Unit>
@@ -85,9 +88,6 @@
 			<Option target="aeds1_tp2"/>
 		</Unit>
 		<Unit filename="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c">
-			<Option target="aeds1_tp2"/>
-		</Unit>
-		<Unit filename="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/tadMochila.h">
 			<Option target="aeds1_tp2"/>
 		</Unit>
 		<Unit filename="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/CMakeLists.txt">

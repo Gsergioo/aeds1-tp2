@@ -53,6 +53,8 @@ void printCombination(Item *item, Mochila *mochila, int n, int r, int C, int *ma
     combinationUtil(item, mochila->item, data, valComb, 0, n-1, 0, r, C, maior, qtd);
 }
 
+//-----------------------funcoes de utiidades --------------------------------------
+
 void CriaVetor (Mochila *mochila, int n){
     mochila->item = (Item * ) malloc(n * sizeof(Item));
 }
@@ -63,4 +65,10 @@ void leArquivo(FILE *arq, Item *item, int maxTam){
         fscanf(arq, "%d %d", &item[i].peso, &item[i].valor);
         barraN = fgetc(arq);
     }
+}
+
+void imprimeResultados(Mochila mochila, int qtd){
+
+//codigo lindo e xeroso aqui bjs
+
 }
