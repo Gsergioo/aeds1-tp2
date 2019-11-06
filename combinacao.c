@@ -3,8 +3,7 @@
 //
 
 #include "combinacao.h"
-#include <stdio.h>
-#include <stdlib.h>
+
 
 void combinationUtil(Item *item, Item *tupla,int data[], int valComb[], int start, int end, int index, int r, int capacidade, int *maior, int *qtd)
 {
