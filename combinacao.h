@@ -9,4 +9,4 @@ void combinationUtil(Item *item, Item *tupla, int data[], int valComb[], int sta
 
 void CriaVetor(Mochila *mochila, int n);
 void leArquivo(FILE *arq, Item itens[], int maxTam);
-void imprimeResultado(Mochila mochila, int qtd);
+void imprimeResultados(Mochila mochila, int qtd, clock_t tempo);
