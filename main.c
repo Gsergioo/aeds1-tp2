@@ -77,23 +77,8 @@ int main() {
             printf("\n");
 //----------------------------------impressao do resultado final--------------------------------------------------------
 
-            printf("-----------------------------------------\n");
-            printf("Capacidade da mochila: %d\n", mochila.capacidade);
-            printf("Melhor combinação: ");
+           imprimeResultados(mochila, qtd, tempo);
 
-            for (int i = 0; i < qtd; i++){
-                printf("(%d %d)", mochila.item[i].peso, mochila.item[i].valor);
-                pesoTot += mochila.item[i].peso;
-                valTot += mochila.item[i].valor;
-            }
-            printf("\n");
-            printf("Peso total: %d/%d\n", pesoTot, mochila.capacidade);
-            printf("Valor agregado: %d", valTot);
-
-            printf("\n");
-            printf("Tempo = %lf segundos\n",((double)tempo)/CLOCKS_PER_SEC);
-
-            printf("-------------------------------------------\n");
         }
 
         fclose(arq);
