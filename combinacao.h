@@ -3,6 +3,10 @@
 //
 #include <stdio.h>
 #include "Mochila.h"
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+#include <malloc.h>
 
 void printCombination(Item *item, Mochila *mochila, int n, int r, int C, int *maior, int *qtd);
 void combinationUtil(Item *item, Item *tupla, int data[], int valComb[], int start, int end, int index, int r, int capacidade, int *maior, int *qtd);
