@@ -67,8 +67,23 @@ void leArquivo(FILE *arq, Item *item, int maxTam){
     }
 }
 
-void imprimeResultados(Mochila mochila, int qtd){
+void imprimeResultados(Mochila mochila, int qtd, clock_t tempo){
+    int pesoTot = 0;
+    int valTot = 0;
+    printf("-----------------------------------------\n");
+    printf("Capacidade da mochila: %d\n", mochila.capacidade);
+    printf("Melhor combinação: ");
 
-//codigo lindo e xeroso aqui bjs
+    for (int i = 0; i < qtd; i++){
+        printf("(%d %d)", mochila.item[i].peso, mochila.item[i].valor);
+        pesoTot += mochila.item[i].peso;
+        valTot += mochila.item[i].valor;
+    }
+    printf("\n");
+    printf("Peso total: %d/%d\n", pesoTot, mochila.capacidade);
+    printf("Valor agregado: %d", valTot);
+    printf("\n");
+    printf("Tempo = %lf segundos\n",((double)tempo)/CLOCKS_PER_SEC);
+    printf("-------------------------------------------\n");
 
 }
