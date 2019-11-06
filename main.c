@@ -1,8 +1,5 @@
-#include <stdio.h>
 #include "combinacao.h"
-#include <time.h>
-#include <string.h>
-#include <malloc.h>
+
 
 int main() {
     clock_t tempo;
