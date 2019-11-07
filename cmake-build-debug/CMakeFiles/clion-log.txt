@@ -1,4 +1,11 @@
-"/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2"
+"/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master"
+-- The C compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug
+-- Build files have been written to: /home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug

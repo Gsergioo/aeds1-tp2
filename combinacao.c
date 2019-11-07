@@ -3,17 +3,16 @@
 //
 
 #include "combinacao.h"
-#include <stdio.h>
-#include <stdlib.h>
 
-void combinationUtil(Item *item, Item *tupla,int data[], int valComb[], int start, int end, int index, int r, int capacidade, int *maior, int *qtd)
+
+void fazCombinacoes(Item *item, Item *tupla,int pesoComb[], int valComb[], int inicio, int fim, int indice, int r, int capacidade, int *maior, int *qtd)
 {
     int i, j, somaPeso = 0, somaVal = 0;
 
-    if (index == r)
+    if (indice == r)
     {
         for (j=0; j<r; j++) {
-            somaPeso += data[j];
+            somaPeso += pesoComb[j];
             somaVal += valComb[j];
         }
         if( somaPeso <= capacidade){
@@ -22,7 +21,7 @@ void combinationUtil(Item *item, Item *tupla,int data[], int valComb[], int star
                 *qtd = r;
                 for (int i = 0; i < r; i++){
                     tupla[i].valor = valComb[i];
-                    tupla[i].peso = data[i];
+                    tupla[i].peso = pesoComb[i];
                 }
             }
             if (somaVal == *maior && *qtd < r){
@@ -30,27 +29,32 @@ void combinationUtil(Item *item, Item *tupla,int data[], int valComb[], int star
                 *qtd = r;
                 for (int i = 0; i < r; i++){
                     tupla[i].valor = valComb[i];
-                    tupla[i].peso = data[i];
+                    tupla[i].peso = pesoComb[i];
                 }
             }
         }
         return;
     }
 
-    for (i=start; i<=end && end-i+1 >= r-index; i++)
+    for (i=inicio; i<=fim && fim-i+1 >= r-indice; i++)
     {
-        data[index] = item[i].peso;
-        valComb[index] = item[i].valor;
-        combinationUtil(item, tupla, data, valComb, i+1, end, index+1, r, capacidade, maior, qtd);
+        pesoComb[indice] = item[i].peso;
+        valComb[indice] = item[i].valor;
+        fazCombinacoes(item, tupla, pesoComb, valComb, i+1, fim, indice+1, r, capacidade, maior, qtd);
     }
 }
 
-void printCombination(Item *item, Mochila *mochila, int n, int r, int C, int *maior, int *qtd)
+void resolverProblema(Item *item, Mochila *mochila, int n, int r, int C, int *maior, int *qtd)
 {
-    int data[r];
+    /*
+        C e a capacidade
+        r e a combinação de quanto a quanto
+        n e o tamanho maximo da entrada. Usa essa variavel pra facilitar na expressao do for que contem a recursividade
+     */
+    int pesoComb[r];
     int valComb[r];
 
-    combinationUtil(item, mochila->item, data, valComb, 0, n-1, 0, r, C, maior, qtd);
+    fazCombinacoes(item, mochila->item, pesoComb, valComb, 0, n-1, 0, r, C, maior, qtd);
 }
 
 //-----------------------funcoes de utiidades --------------------------------------
@@ -67,8 +71,23 @@ void leArquivo(FILE *arq, Item *item, int maxTam){
     }
 }
 
-void imprimeResultados(Mochila mochila, int qtd){
+void imprimeResultados(Mochila mochila, int qtd, clock_t tempo){
+    int pesoTot = 0;
+    int valTot = 0;
+    printf("-----------------------------------------\n");
+    printf("Capacidade da mochila: %d\n", mochila.capacidade);
+    printf("Melhor combinação: ");
 
-//codigo lindo e xeroso aqui bjs
+    for (int i = 0; i < qtd; i++){
+        printf("(%d %d)", mochila.item[i].peso, mochila.item[i].valor);
+        pesoTot += mochila.item[i].peso;
+        valTot += mochila.item[i].valor;
+    }
+    printf("\n");
+    printf("Peso total: %d/%d\n", pesoTot, mochila.capacidade);
+    printf("Valor agregado: %d", valTot);
+    printf("\n");
+    printf("Tempo = %lf segundos\n",((double)tempo)/CLOCKS_PER_SEC);
+    printf("-------------------------------------------\n");
 
 }

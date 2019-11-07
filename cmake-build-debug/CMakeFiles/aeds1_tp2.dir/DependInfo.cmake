@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/aeds1_tp2.dir/combinacao.c.o"
-  "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/aeds1_tp2.dir/main.c.o"
+  "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/combinacao.c" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles/aeds1_tp2.dir/combinacao.c.o"
+  "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/main.c" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles/aeds1_tp2.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = "/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2"
+CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

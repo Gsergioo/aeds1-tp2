@@ -6,31 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/Mochila.h
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/Mochila.h
 
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c
-combinacao.h
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.h
-stdio.h
--
-stdlib.h
--
-
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.h
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/combinacao.h
 stdio.h
 -
 Mochila.h
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/Mochila.h
-
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c
-stdio.h
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/Mochila.h
+stdlib.h
 -
-combinacao.h
-/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.h
 time.h
 -
 string.h
 -
-malloc.h
--
+
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/main.c
+combinacao.h
+/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/combinacao.h
 

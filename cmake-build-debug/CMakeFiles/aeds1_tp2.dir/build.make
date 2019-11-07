@@ -43,10 +43,10 @@ RM = "/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2"
+CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aeds1_tp2.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/aeds1_tp2.dir/flags.make
 
 CMakeFiles/aeds1_tp2.dir/main.c.o: CMakeFiles/aeds1_tp2.dir/flags.make
 CMakeFiles/aeds1_tp2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aeds1_tp2.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aeds1_tp2.dir/main.c.o   -c "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aeds1_tp2.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aeds1_tp2.dir/main.c.o   -c "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/main.c"
 
 CMakeFiles/aeds1_tp2.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aeds1_tp2.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c" > CMakeFiles/aeds1_tp2.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/main.c" > CMakeFiles/aeds1_tp2.dir/main.c.i
 
 CMakeFiles/aeds1_tp2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aeds1_tp2.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/main.c" -o CMakeFiles/aeds1_tp2.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/main.c" -o CMakeFiles/aeds1_tp2.dir/main.c.s
 
 CMakeFiles/aeds1_tp2.dir/combinacao.c.o: CMakeFiles/aeds1_tp2.dir/flags.make
 CMakeFiles/aeds1_tp2.dir/combinacao.c.o: ../combinacao.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aeds1_tp2.dir/combinacao.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aeds1_tp2.dir/combinacao.c.o   -c "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aeds1_tp2.dir/combinacao.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aeds1_tp2.dir/combinacao.c.o   -c "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/combinacao.c"
 
 CMakeFiles/aeds1_tp2.dir/combinacao.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aeds1_tp2.dir/combinacao.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c" > CMakeFiles/aeds1_tp2.dir/combinacao.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/combinacao.c" > CMakeFiles/aeds1_tp2.dir/combinacao.c.i
 
 CMakeFiles/aeds1_tp2.dir/combinacao.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aeds1_tp2.dir/combinacao.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/combinacao.c" -o CMakeFiles/aeds1_tp2.dir/combinacao.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/combinacao.c" -o CMakeFiles/aeds1_tp2.dir/combinacao.c.s
 
 # Object files for target aeds1_tp2
 aeds1_tp2_OBJECTS = \
@@ -95,7 +95,7 @@ aeds1_tp2: CMakeFiles/aeds1_tp2.dir/main.c.o
 aeds1_tp2: CMakeFiles/aeds1_tp2.dir/combinacao.c.o
 aeds1_tp2: CMakeFiles/aeds1_tp2.dir/build.make
 aeds1_tp2: CMakeFiles/aeds1_tp2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable aeds1_tp2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable aeds1_tp2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aeds1_tp2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/aeds1_tp2.dir/clean:
 .PHONY : CMakeFiles/aeds1_tp2.dir/clean
 
 CMakeFiles/aeds1_tp2.dir/depend:
-	cd "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/aeds1-tp2/cmake-build-debug/CMakeFiles/aeds1_tp2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug" "/home/lazarus/Área de Trabalho/UFV/2_Semestre/AEDS1/TPs/uisda/aeds1-tp2-master/cmake-build-debug/CMakeFiles/aeds1_tp2.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/aeds1_tp2.dir/depend
 
